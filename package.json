@@ -1,0 +1,13 @@
+{
+  "name": "reproducing-parcel-reporter-clean-dist",
+  "version": "1.0.0",
+  "repository": "https://github.com/pieterdw/reproducing-parcel-reporter-clean-dist.git",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build index.js --dist-dir dist --no-cache"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.1",
+    "parcel-reporter-clean-dist": "^1.0.2"
+  }
+}
